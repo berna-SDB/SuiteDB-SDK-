@@ -1,0 +1,4 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>customizedLibrary</projectname>
+  <frameworkversion>1.0</frameworkversion>
+</manifest>
