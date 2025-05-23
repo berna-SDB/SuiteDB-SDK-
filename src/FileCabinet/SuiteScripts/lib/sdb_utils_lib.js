@@ -6,14 +6,7 @@
 
 define(['N/log', 'N/runtime', 'N/search', 'N/file', 'N/record', 'N/redirect', 'N/config', 'N/render', 'N/format', 'N/email', 'N/url', 'N/query', 'N/config', 'N/ui/serverWidget', 'N/xml', 'N/currency', 'N/https'], //BSMX-380.n //BMS-649.n //BMS-706.n
     function (log, runtime, search, file, record, redirect, config, render, nformat, email, url, query, config, serverWidget, xml, currency, https) { //BSMX-380.n //BMS-649.n //BMS-706.n
-        var md = 'MX-LOCALIZATIONS-LIB -> ';
-        var cfdiStatus = {
-            stamped: 1,
-            appToStamp: 2,
-            cancelled: 3,
-            stampError: 4
-        }
-
+      
         //Ejecuta una búsqueda usando el módulo N/query y devuelve una lista de cuentas (ACCOUNT) con algunos campos específicos.
         function reconcileAccountS() {
             try {
