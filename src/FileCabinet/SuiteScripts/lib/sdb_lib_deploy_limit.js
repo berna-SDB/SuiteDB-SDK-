@@ -1,10 +1,7 @@
 /** 
  * @NApiVersion 2.1
  * @NModuleScope Public 
- * 
- * Task          Date            Author                                               Remarks
- * BSMX-267      17 Jun 2021     Ana Hermosillo<ana.hermosillo@bringitps.com>         [SPRINT/26] Create deployments. 
- * 
+
  */
  define(['N/search','N/error', 'N/record', 'N/task', 'N/runtime', './bit_mx_loc_lib'], function (search,error,record,task, runtime, lib_mx_loc) {
 
