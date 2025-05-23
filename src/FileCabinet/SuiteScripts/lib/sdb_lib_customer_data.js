@@ -2,10 +2,7 @@
  * @NApiVersion 2.1
  * @NModuleScope Public
  * 
- * Task          Date            Author                                                     Remarks
- * BSMX-70       07 Jan 2022     Tim Araque <tim.araque@bringitps.com>                      [Sprint/37] start
- * BMS-575		 02 Aug 2023     Ana Hermosillo <ana.hermosillo@bringitps.com>              [SPRINT/69] Remove double spaces in the company name.
- *
+
  */
 define(['N/log', 'N/error', 'N/runtime', 'N/search', 'N/file', 'N/record', 'N/redirect', 'N/config', 'N/render', 'N/format', 'N/email', 'N/url'],
 function(log, error, runtime, search, file, record, redirect, config, render, format, email, url) {
